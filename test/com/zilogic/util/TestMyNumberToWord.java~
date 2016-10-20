@@ -1,0 +1,51 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.zilogic.util;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.junit.*;
+
+
+/**
+ *
+ * @author sridhar
+ */
+public class TestMyNumberToWord {
+    MyNumberToWord mynumbertoword;
+    @BeforeClass
+    public static void setUpClass() {
+    }
+    
+    @AfterClass
+    public static void tearDownClass() {
+    }
+    
+    @Before
+    public void setUp() {
+	mynumbertoword = new MyNumberToWord();
+	
+    }
+    
+    @After
+    public void tearDown() {
+	mynumbertoword = null;
+    }
+    // TODO add test methods here.
+    // The methods must be annotated with annotation @Test. For example:
+    
+    @Test
+    public void hello() {
+	String str = "HelloWorld";
+       	//Assert.assertEquals("one ruppes", mynumbertoword.getWord("1"));
+	//Assert.assertEquals("eleven ruppes", mynumbertoword.getWord("11"));
+	System.out.println("Test case form ant");
+	
+    }
+}
